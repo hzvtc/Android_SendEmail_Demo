@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android_SendEmail_Demo</string>
+    <string name="sendEmail">发送邮件</string>
+    <string name="sendEmail_btn">发送邮件</string>
+    <string name="EmailReceiver">输入邮件接收者</string>
+    <string name="EmailCC">输入邮件标题</string>
+    <string name="EmailSubject">输入邮件主题</string>
+    <string name="EmailBody">输入邮件主体内容</string>
+    <string name="Str_Message">发送邮件</string>
+</resources>

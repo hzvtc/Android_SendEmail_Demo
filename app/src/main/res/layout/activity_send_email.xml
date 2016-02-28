@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sendEmail"
+        android:id="@+id/sendEmailInfo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sendEmailInfo"
+        android:hint="@string/EmailReceiver"
+        android:id="@+id/emailReceiver" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendEmail_btn"
+        android:layout_below="@+id/emailBody"
+        android:id="@+id/sendEmail_btn" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EmailCC"
+        android:layout_below="@+id/emailReceiver"
+        android:id="@+id/emailCC" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailCC"
+        android:hint="@string/EmailSubject"
+        android:id="@+id/emailSubject" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailSubject"
+        android:hint="@string/EmailBody"
+        android:inputType="textMultiLine"
+        android:gravity="left|top"
+        android:minLines="6"
+        android:id="@+id/emailBody" />
+</RelativeLayout>
